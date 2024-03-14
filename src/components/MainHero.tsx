@@ -27,7 +27,7 @@ const MainHero = () => {
           <div className="rounded-md shadow" onClick={() => dialNumber('+923430555882')}>
             <a
               href={mainHero.primaryAction.href}
-              className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-[#F68E37] hover:shadow md:py-4 md:text-lg md:px-10`}
+              className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-[#F68E37] hover:shadow md:py-3 md:text-lg md:px-8 focus:border-none`}
             >
               {mainHero.primaryAction.text}
             </a>
