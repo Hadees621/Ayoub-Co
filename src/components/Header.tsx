@@ -29,10 +29,10 @@ const Menu = () => {
             aria-label="Global"
           >
             <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
-              <div className="flex items-center justify-between w-full md:w-auto">
+              <div className="flex items-center justify-between w-full md:w-auto lg:mr-4 lg:mt-10">
                 <a href="#">
                   <span className="sr-only">{companyName}</span>
-                  <img alt="logo" className="h-16 w-auto sm:h-16" src={logo} />
+                  <img alt="logo" className="h-16 w-auto sm:h-16 lg:h-24 lg:ml-6" src={logo} />
                 </a>
                 <div className="-mr-2 flex items-center md:hidden">
                   <Popover.Button
@@ -44,7 +44,7 @@ const Menu = () => {
                 </div>
               </div>
             </div>
-            <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+            <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-12 md:pt-6">
               {navigation.map((item) => (
                 <Link
                   spy={true}
@@ -58,17 +58,17 @@ const Menu = () => {
                   {item.name}
                 </Link>
               ))}
-              <a
+              {/* <a
                 href="#"
                 className={`font-medium text-primary hover:text-secondary`}
               >
                 Call to action
-              </a>
+              </a> */}
             </div>
           </nav>
         </div>
 
-        <Transition
+        {/* <Transition
           as={Fragment}
           enter="duration-150 ease-out"
           enterFrom="opacity-0 scale-95"
@@ -120,7 +120,7 @@ const Menu = () => {
               </a>
             </div>
           </Popover.Panel>
-        </Transition>
+        </Transition> */}
       </Popover>
     </>
   );
