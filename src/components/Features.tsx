@@ -17,13 +17,13 @@ const Features = () => {
           </p>
         </div>
 
-        <div className="flex justify-center mt-16">
+        <div className="flex flex-wrap items-center border justify-center mt-16">
           {companies.map((company, index) => (
-            <div key={index} className="flex flex-col items-center mx-4">
+            <div key={index} className="flex flex-col items-center m-6">
               <img
                 src={company.logo}
                 alt={company.name}
-                className="h-28"
+                className="h-48 w-72"
               />
               <h1 className="mt-2 text-xl leading-8 font-extrabold tracking-tight text-gray-900">{company.name}</h1>
             </div>

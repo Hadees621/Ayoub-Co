@@ -14,7 +14,7 @@
     },
 
     {
-      "name": "Pricing",
+      "name": "Location",
       "href": "pricing"
     },
     {
@@ -27,7 +27,7 @@
     "href": "#"
   },
   "mainHero": {
-    "title": "Ayoub & Co ",
+    "title": "Ayoub & Co",
     "subtitle": "Auto Corporation",
     "description": "Established in 2007, Ayoub & Co Auto Corporation is a premier wholesale dealer specializing in heavy machinery parts. We offer a diverse range of components including hydraulic pump parts, motor pump parts, swing motor parts, rotor parts, piston shoes, and swash plates. As an authorized distributor of Handok Hydraulic, a reputable Korean company, we ensure the highest quality standards. Serving clients across Pakistan and Afghanistan, we provide reliable service and premium products with nationwide delivery. Trust Ayoub & Co Auto Corporation for all your heavy machinery needs.",
     "img": "/assets/ex.jpg",
@@ -62,23 +62,28 @@
     "companies": [
       {
         "name": "HITACHI",
-        "logo": "/logos/Hitachi_.png"
+        "logo": "/logos/hit.png",
+        "sizing": ""
       },
       {
         "name": "HYUNDAI",
-        "logo": "/logos/hyundai.png"
-      },
-      {
-        "name": "NOK",
-        "logo": "/logos/NOK.png"
+        "logo": "/logos/hyun.png"
       },
       {
         "name": "VOLVO",
-        "logo": "/logos/volvo.png"
+        "logo": "/logos/vol.png"
       },
       {
         "name": "SAMSUNG",
-        "logo": "/logos/sam.png"
+        "logo": "/logos/sa.png"
+      },
+      {
+        "name": "NOK",
+        "logo": "/logos/N.png"
+      },
+      {
+        "name": "HD",
+        "logo": "/logos/h.jpg"
       }
     ]
   },
