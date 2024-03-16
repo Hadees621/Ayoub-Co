@@ -1,7 +1,5 @@
-import React from 'react';
 
 import config from '../config/index.json';
-import MainHeroImage from './MainHeroImage';
 
 const MainHero = () => {
 
@@ -33,14 +31,14 @@ const MainHero = () => {
               {mainHero.primaryAction.text}
             </a>
           </div>
-          {/* <div className="mt-3 sm:mt-0 sm:ml-3">
+          <div className="mt-3 sm:mt-0 sm:ml-3">
             <a
-              href={mainHero.secondaryAction.href}
-              className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary text-secondary bg-background hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}
+              href={'https://maps.app.goo.gl/Mp6EbLZvTAcKgLRb9'}
+              className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary text-secondary bg-background hover:text-primary md:py-3 md:text-lg md:px-8 focus:border-none`}
             >
-              {mainHero.secondaryAction.text}
+              Find Us!
             </a>
-          </div> */}
+          </div>
         </div>
       </div>
     </main>

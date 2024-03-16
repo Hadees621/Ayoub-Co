@@ -12,7 +12,7 @@ const Location = () => {
           Our dedicated team is committed to providing excellent service and assistance to all our customers. Whether you're looking for everyday essentials or unique finds, we're here to help you discover the perfect items to suit your needs.
         </p>
       </div>
-      <div className='w-full flex flex-col gap-6 lg:flex-row lg:pl-10 xl:px-20 2xl:justify-items-center'>
+      <div className='w-full flex flex-col gap-6 lg:flex-row lg:pl-10 xl:px-20 2xl:pl-20 2xl:justify-items-center'>
 
         {/* map */}
         <div>
