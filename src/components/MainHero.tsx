@@ -1,6 +1,7 @@
 import React from 'react';
 
 import config from '../config/index.json';
+import MainHeroImage from './MainHeroImage';
 
 const MainHero = () => {
 
@@ -11,7 +12,7 @@ const MainHero = () => {
   }
 
   return (
-    <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+    <main className="2xl:relative mt-10 mx-auto 2xl:max-w-[1500px] max-w-7xl 2xl:w-full px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
       <div className="sm:text-center lg:text-left">
         <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">
           <span className="block xl:inline">{mainHero.title}</span>{' '}

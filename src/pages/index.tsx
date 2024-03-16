@@ -19,14 +19,19 @@ const App = () => {
             className={`relative z-10 pb-8 bg-background sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32`}
           >
             <Header />
-            {/* <MainHero /> */}
+            <MainHero />
+
           </div>
         </div>
-        {/* <MainHeroImage /> */}
+        <div className='hidden lg:block'>
+          <MainHeroImage />
+        </div>
       </div>
       {/* <Features /> */}
       {/* <Product /> */}
-      <Location />
+      <div className='w-full flex justify-center'>
+        <Location />
+      </div>
       {/* <About /> */}
 
       {/* <Canvas />
