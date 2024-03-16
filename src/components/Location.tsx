@@ -3,6 +3,7 @@ import React from 'react';
 const Location = () => {
   return (
     <section className={`bg-background py-8`} id="pricing">
+      {/* section top */}
       <div className="text-center pb-8 lg:pb-20">
         <p className="mt-2 text-2xl lg:text-3xl leading-8 font-extrabold tracking-tight text-gray-900">
           How to Find Us:
@@ -15,7 +16,6 @@ const Location = () => {
 
         {/* map */}
         <div>
-
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3322.8663632331113!2d72.8501047!3d33.6087717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df97903e7be53b%3A0xc046363266540e56!2sAyoub%20%26%20Co%20Auto%20Corporation!5e0!3m2!1sen!2s!4v1710517882980!5m2!1sen!2s"
             style={{ border: 0 }}
