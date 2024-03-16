@@ -28,7 +28,7 @@ const App = () => {
       {/* <Features /> */}
       {/* <Product /> */}
       <Location />
-      <About />
+      {/* <About /> */}
 
       {/* <Canvas />
       <LazyShow>
