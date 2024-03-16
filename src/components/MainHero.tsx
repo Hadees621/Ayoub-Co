@@ -36,7 +36,7 @@ const MainHero = () => {
               href={'https://maps.app.goo.gl/Mp6EbLZvTAcKgLRb9'}
               className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary text-secondary bg-background hover:text-primary md:py-3 md:text-lg md:px-8 focus:border-none`}
             >
-              Find Us!
+              Locate Us
             </a>
           </div>
         </div>
