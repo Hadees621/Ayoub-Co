@@ -17,7 +17,7 @@ const Features = () => {
           </p>
         </div>
 
-        <div className="flex flex-wrap items-center border justify-center mt-16">
+        <div className="flex flex-wrap items-center justify-center mt-16">
           {companies.map((company, index) => (
             <div key={index} className="flex flex-col items-center m-6">
               <img
