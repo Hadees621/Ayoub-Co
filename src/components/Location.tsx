@@ -2,7 +2,7 @@ import React from 'react';
 
 const Location = () => {
   return (
-    <section className={`bg-background py-8`} id="pricing">
+    <section className={`bg-background py-8 2xl:max-w-[1500px] max-w-7xl flex flex-col items-center justify-center md:px-10 lg:px-0`} id="pricing">
       {/* section top */}
       <div className="text-center pb-8 lg:pb-20">
         <p className="mt-2 text-2xl lg:text-3xl leading-8 font-extrabold tracking-tight text-gray-900">
@@ -12,7 +12,7 @@ const Location = () => {
           Our dedicated team is committed to providing excellent service and assistance to all our customers. Whether you're looking for everyday essentials or unique finds, we're here to help you discover the perfect items to suit your needs.
         </p>
       </div>
-      <div className='w-full flex flex-col gap-6 lg:flex-row px-10 xl:px-20 2xl:justify-items-center'>
+      <div className='w-full flex flex-col gap-6 lg:flex-row lg:pl-10 xl:px-20 2xl:pl-20 2xl:justify-items-center'>
 
         {/* map */}
         <div>

@@ -1,4 +1,3 @@
-import React from 'react';
 
 import config from '../config/index.json';
 
@@ -11,7 +10,7 @@ const MainHero = () => {
   }
 
   return (
-    <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+    <main className="2xl:relative mt-10 mx-auto 2xl:max-w-[1500px] max-w-7xl 2xl:w-full px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
       <div className="sm:text-center lg:text-left">
         <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">
           <span className="block xl:inline">{mainHero.title}</span>{' '}
@@ -32,14 +31,14 @@ const MainHero = () => {
               {mainHero.primaryAction.text}
             </a>
           </div>
-          {/* <div className="mt-3 sm:mt-0 sm:ml-3">
+          <div className="mt-3 sm:mt-0 sm:ml-3">
             <a
-              href={mainHero.secondaryAction.href}
-              className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary text-secondary bg-background hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}
+              href={'https://maps.app.goo.gl/Mp6EbLZvTAcKgLRb9'}
+              className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary text-secondary bg-background hover:text-primary md:py-3 md:text-lg md:px-8 focus:border-none`}
             >
-              {mainHero.secondaryAction.text}
+              Locate Us
             </a>
-          </div> */}
+          </div>
         </div>
       </div>
     </main>
