@@ -58,7 +58,7 @@ const Companies = () => {
             {description}
           </p>
         </div>
-        <div className="company-container w-[400px] md:w-[700px] lg:max-w-7xl mt-16" ref={containerRef}>
+        <div className="company-container mt-16" ref={containerRef}>
           {companies.map((company, index) => (
             <div key={index} className="company flex flex-col items-center mx-8">
               <img

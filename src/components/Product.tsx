@@ -1,64 +1,31 @@
-import React from 'react';
-
 import config from '../config/index.json';
-import Divider from './Divider';
 
 const Product = () => {
   const { product } = config;
-  const [firstItem, secondItem] = product.items;
 
   return (
-    <section className={`bg-background py-8`} id="product">
-      <div className={`container max-w-5xl mx-auto m-8`}>
-        <h1
-          className={`w-full my-2 text-5xl font-bold leading-tight text-center text-primary`}
-        >
-          {product.title.split(' ').map((word, index) => (
-            <span
-              key={index}
-              className={index % 2 ? 'text-primary' : 'text-border'}
-            >
-              {word}{' '}
-            </span>
-          ))}
-        </h1>
-        <Divider />
-        <div className={`flex flex-wrap`}>
-          <div className={`w-5/6 sm:w-1/2 p-6 mt-20`}>
-            <h3
-              className={`text-3xl text-gray-800 font-bold leading-none mb-3`}
-            >
-              {firstItem?.title}
-            </h3>
-            <p className={`text-gray-600`}>{firstItem?.description}</p>
-          </div>
-          <div className={`w-full sm:w-1/2 p-6`}>
-            <img
-              className="h-6/6"
-              src={firstItem?.img}
-              alt={firstItem?.title}
-            />
-          </div>
-        </div>
-        <div className={`flex flex-wrap flex-col-reverse sm:flex-row`}>
-          <div className={`w-full sm:w-1/2 p-6`}>
-            <img
-              className="h-6/6"
-              src={secondItem?.img}
-              alt={secondItem?.title}
-            />
-          </div>
-          <div className={`w-full sm:w-1/2 p-6 mt-20`}>
-            <div className={`align-middle`}>
-              <h3
-                className={`text-3xl text-gray-800 font-bold leading-none mb-3`}
-              >
-                {secondItem?.title}
-              </h3>
-              <p className={`text-gray-600 mb-8`}>{secondItem?.description}</p>
+    <section className={`bg-background py-8 max-w-7xl`} id="product">
+      <div className="text-center pb-8">
+        <p className="mt-2 text-2xl lg:text-3xl leading-8 font-extrabold tracking-tight text-gray-900">
+          {product.title}
+        </p>
+        <p className="mt-4 px-6 lg:px-20 text-sm lg:text-xl text-gray-500">
+          {product.description}
+        </p>
+      </div>
+      <div className=" mx-auto px-4 sm:px-6 lg:px-8 flex flex-wrap gap-4 justify-center">
+        {product.products.map((prod, index) => (
+          <div key={index} className="company flex flex-col items-center mx-4">
+            <div>
+              <img
+                src={prod.logo}
+                alt={prod.name}
+                className="h-52"
+              />
+              <h1 className="text-sm lg:text-md text-gray-500 py-5 text-center" >{prod.name}</h1>
             </div>
           </div>
-        </div>
+        ))}
       </div>
     </section>
   );

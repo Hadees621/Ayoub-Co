@@ -8,6 +8,7 @@ import MainHero from '../components/MainHero';
 import MainHeroImage from '../components/MainHeroImage';
 import Location from '../components/Location';
 import Companies from '../components/Companies';
+import Product from '../components/Product';
 
 const App = () => {
   return (
@@ -19,15 +20,16 @@ const App = () => {
           >
             <Header />
             <MainHero />
-
           </div>
         </div>
         <div className='hidden lg:block'>
           <MainHeroImage />
         </div>
       </div>
+      <div className='w-full flex justify-center'>
+        <Product />
+      </div>
       <Companies />
-      {/* <Product /> */}
       <div className='w-full flex justify-center'>
         <Location />
       </div>
