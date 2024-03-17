@@ -9,10 +9,9 @@
       "href": "product"
     },
     {
-      "name": "Companies",
+      "name": "Brands",
       "href": "features"
     },
-
     {
       "name": "Location",
       "href": "pricing"
@@ -22,10 +21,6 @@
       "href": "about"
     }
   ],
-  "callToAction": {
-    "text": "Get started",
-    "href": "#"
-  },
   "mainHero": {
     "title": "Ayoub & Co",
     "subtitle": "Auto Corporation",
