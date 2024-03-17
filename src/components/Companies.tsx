@@ -58,7 +58,7 @@ const Companies = () => {
             {description}
           </p>
         </div>
-        <div className="w-[400px] md:w-[700px] lg:max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-[300px] md:w-[700px] lg:max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="company-container mt-16" ref={containerRef}>
             {companies.map((company, index) => (
               <div key={index} className="company flex flex-col items-center mx-8">
