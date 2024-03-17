@@ -1,14 +1,12 @@
 import React from 'react';
 import About from '../components/About';
-import Analytics from '../components/Analytics';
-import Canvas from '../components/Canvas';
-import Features from '../components/Features';
 import Header from '../components/Header';
 import LazyShow from '../components/LazyShow';
 import MainHero from '../components/MainHero';
 import MainHeroImage from '../components/MainHeroImage';
-import Pricing from '../components/Location';
 import Location from '../components/Location';
+import Companies from '../components/Companies';
+import Product from '../components/Product';
 
 const App = () => {
   return (
@@ -20,39 +18,36 @@ const App = () => {
           >
             <Header />
             <MainHero />
-
           </div>
         </div>
         <div className='hidden lg:block'>
           <MainHeroImage />
         </div>
       </div>
-      {/* <Features /> */}
-      {/* <Product /> */}
       <div className='w-full flex justify-center'>
-        <Location />
+        <LazyShow>
+          <>
+            <Product />
+          </>
+        </LazyShow>
       </div>
-      {/* <About /> */}
-
-      {/* <Canvas />
       <LazyShow>
         <>
-          <Canvas />
+          <Companies />
         </>
       </LazyShow>
+      <div className='w-full flex justify-center'>
+        <LazyShow>
+          <>
+            <Location />
+          </>
+        </LazyShow>
+      </div>
       <LazyShow>
         <>
-          <Canvas />
+          <About />
         </>
       </LazyShow>
-      <LazyShow>
-      </LazyShow>
-      <LazyShow>
-        <>
-          <Canvas />
-        </>
-      </LazyShow>
-      <Analytics /> */}
     </div>
   );
 };

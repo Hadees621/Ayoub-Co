@@ -9,10 +9,9 @@
       "href": "product"
     },
     {
-      "name": "Companies",
+      "name": "Brands",
       "href": "features"
     },
-
     {
       "name": "Location",
       "href": "pricing"
@@ -22,10 +21,6 @@
       "href": "about"
     }
   ],
-  "callToAction": {
-    "text": "Get started",
-    "href": "#"
-  },
   "mainHero": {
     "title": "Ayoub & Co",
     "subtitle": "Auto Corporation",
@@ -41,49 +36,64 @@
     }
   },
   "product": {
-    "title": "React landing page 2021",
-    "items": [
+    "title": "We deal in Premium Parts:",
+    "description": "Explore our premium collection of heavy machinery parts and accessories. We offer a comprehensive range of high-quality products tailored to meet your needs. From essential components to specialized parts, our selection includes everything you need to keep your machinery operating at peak performance.",
+    "products": [
       {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
-        "img": "/assets/images/product1.jpg"
+        "name": "Crulling Motor Parts (HD)",
+        "logo": "/assets/products/machine-1.gif"
       },
       {
-        "title": "Make it your own!",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
-        "img": "/assets/images/product2.jpg"
+        "name": "Gear Pump",
+        "logo": "/assets/products/machine-2.gif"
+      },
+      {
+        "name": "Hydraulic Pump(HD)",
+        "logo": "/assets/products/machine-3.gif"
+      },
+      {
+        "name": "Rotor",
+        "logo": "/assets/products/machine-4.gif"
+      },
+      {
+        "name": "Swing Motor(HD)",
+        "logo": "/assets/products/machine-5.gif"
+      },
+      {
+        "name": "Valve Plate",
+        "logo": "/assets/products/machine-6.gif"
       }
     ]
   },
   "features": {
     "title": "Latest & greatest ",
-    "subtitle": "All the companies we are working with",
+    "subtitle": "We specialize in genuine parts from these brands",
     "description": "We exclusively offer products from renowned heavy machinery brands. Explore our selection for top-quality parts and services. Drive efficiency and success with trusted industry names.",
     "companies": [
       {
         "name": "HITACHI",
-        "logo": "/logos/hit.png",
+        "logo": "/log/Hitachi.png",
         "sizing": ""
       },
       {
         "name": "HYUNDAI",
-        "logo": "/logos/hyun.png"
+        "logo": "/log/hyundai.png"
       },
       {
         "name": "VOLVO",
-        "logo": "/logos/vol.png"
+        "logo": "/log/volvo.png"
       },
       {
         "name": "SAMSUNG",
-        "logo": "/logos/sa.png"
-      },
-      {
-        "name": "NOK",
-        "logo": "/logos/N.png"
+        "logo": "/log/sa.png"
       },
       {
         "name": "HD",
-        "logo": "/logos/h.jpg"
+        "logo": "/log/HD.png"
+      },
+      {
+        "name": "NOK",
+        "logo": "/log/NOK.png"
       }
     ]
   },
