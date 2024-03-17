@@ -49,34 +49,36 @@ const Companies = () => {
         `}
       </style>
 
-      <div className="w-[400px] md:w-[700px] lg:max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className=" mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center pb-8 lg:pb-20">
           <p className="mt-2 text-2xl lg:text-3xl leading-8 font-extrabold tracking-tight text-gray-900">
             {subtitle}
           </p>
-          <p className="mt-4 px-6 lg:px-20 text-sm lg:text-xl text-gray-500">
+          <p className="mt-4 px-6 text-sm lg:text-xl text-gray-500">
             {description}
           </p>
         </div>
-        <div className="company-container mt-16" ref={containerRef}>
-          {companies.map((company, index) => (
-            <div key={index} className="company flex flex-col items-center mx-8">
-              <img
-                src={company.logo}
-                alt={company.name}
-                className="h-36"
-              />
-            </div>
-          ))}
-          {companies.map((company, index) => (
-            <div key={index + companies.length} className="company flex flex-col items-center mx-8">
-              <img
-                src={company.logo}
-                alt={company.name}
-                className="h-36"
-              />
-            </div>
-          ))}
+        <div className="w-[400px] md:w-[700px] lg:max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="company-container mt-16" ref={containerRef}>
+            {companies.map((company, index) => (
+              <div key={index} className="company flex flex-col items-center mx-8">
+                <img
+                  src={company.logo}
+                  alt={company.name}
+                  className="h-36"
+                />
+              </div>
+            ))}
+            {companies.map((company, index) => (
+              <div key={index + companies.length} className="company flex flex-col items-center mx-8">
+                <img
+                  src={company.logo}
+                  alt={company.name}
+                  className="h-36"
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
