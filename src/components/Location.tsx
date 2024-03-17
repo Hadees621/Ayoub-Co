@@ -12,10 +12,10 @@ const Location = () => {
           Our dedicated team is committed to providing excellent service and assistance to all our customers. Whether you're looking for everyday essentials or unique finds, we're here to help you discover the perfect items to suit your needs.
         </p>
       </div>
-      <div className='w-full flex flex-col gap-6 lg:flex-row lg:pl-10 xl:px-20 2xl:pl-20 2xl:justify-items-center'>
+      <div className='w-full flex flex-col gap-6 lg:flex-row  lg:pl-10 xl:px-20 2xl:pl-20 2xl:justify-items-center'>
 
         {/* map */}
-        <div>
+        <div className='mx-6'>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3322.8663632331113!2d72.8501047!3d33.6087717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df97903e7be53b%3A0xc046363266540e56!2sAyoub%20%26%20Co%20Auto%20Corporation!5e0!3m2!1sen!2s!4v1710517882980!5m2!1sen!2s"
             style={{ border: 0 }}
@@ -27,7 +27,7 @@ const Location = () => {
         </div>
 
         {/* location information */}
-        <div className="rounded-md flex flex-col flex-1 lg:px-8 text-center lg:text-left">
+        <div className="rounded-md flex flex-col flex-1 mx-6 lg:mx-0 text-center lg:text-left">
           <div className="grid space-y-5 lg:space-y-3">
             <p className='text-md text-gray-900 xl:pr-10'>
               At our store, you'll find a knowledgeable team ready to assist you in finding the right parts for your machinery needs. <br className='hidden 2xl:block' /> Whether it's a small component or a specialized part, we're committed to providing exceptional service and expertise.

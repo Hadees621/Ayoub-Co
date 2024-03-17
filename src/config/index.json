@@ -57,33 +57,33 @@
   },
   "features": {
     "title": "Latest & greatest ",
-    "subtitle": "All the companies we are working with",
+    "subtitle": "We specialize in genuine parts from these brands",
     "description": "We exclusively offer products from renowned heavy machinery brands. Explore our selection for top-quality parts and services. Drive efficiency and success with trusted industry names.",
     "companies": [
       {
         "name": "HITACHI",
-        "logo": "/logos/hit.png",
+        "logo": "/log/Hitachi.png",
         "sizing": ""
       },
       {
         "name": "HYUNDAI",
-        "logo": "/logos/hyun.png"
+        "logo": "/log/hyundai.png"
       },
       {
         "name": "VOLVO",
-        "logo": "/logos/vol.png"
+        "logo": "/log/volvo.png"
       },
       {
         "name": "SAMSUNG",
-        "logo": "/logos/sa.png"
-      },
-      {
-        "name": "NOK",
-        "logo": "/logos/N.png"
+        "logo": "/log/sa.png"
       },
       {
         "name": "HD",
-        "logo": "/logos/h.jpg"
+        "logo": "/log/HD.png"
+      },
+      {
+        "name": "NOK",
+        "logo": "/log/NOK.png"
       }
     ]
   },
